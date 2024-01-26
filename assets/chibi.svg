@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460">
+  <defs>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2a34"/>
+      <stop offset="1" stop-color="#2a1d25"/>
+    </linearGradient>
+    <linearGradient id="iris" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1d26"/>
+      <stop offset="0.5" stop-color="#4a2f40"/>
+      <stop offset="1" stop-color="#a5688e"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8dcec"/>
+      <stop offset="1" stop-color="#e6b7cf"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(30 0)">
+    <g stroke="#382730" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+      <!-- hair, back layer, ending in soft tips -->
+      <path fill="url(#hair)" d="M200 36C306 36 340 112 334 194C330 258 336 318 346 368C350 384 334 392 316 390C298 388 284 384 270 382L130 382C116 384 102 388 84 390C66 392 50 384 54 368C64 318 70 258 66 194C60 112 94 36 200 36Z"/>
+
+      <!-- body: light top, short chibi neck -->
+      <path fill="#fffafc" d="M122 452C122 370 156 304 200 304C244 304 278 370 278 452Z"/>
+      <path fill="#fde4d8" d="M186 276h28v28c0 9-28 9-28 0Z"/>
+      <path fill="none" stroke-width="3" d="M172 310C182 328 218 328 228 310"/>
+
+      <!-- face -->
+      <path fill="#fde4d8" d="M200 74C258 74 294 110 294 162C294 230 252 286 200 288C148 286 106 230 106 162C106 110 142 74 200 74Z"/>
+
+      <!-- hair, front: crown with a centre part, then side locks over the cheeks -->
+      <path fill="url(#hair)" d="M102 170C98 96 146 50 200 50C254 50 302 96 298 170C288 128 258 100 207 86L200 70L193 86C142 100 112 128 102 170Z"/>
+      <path fill="url(#hair)" d="M104 148C96 202 100 262 92 324C89 346 82 362 72 376C100 366 118 340 122 302C126 262 118 210 124 166Z"/>
+      <path fill="url(#hair)" d="M296 148C304 202 300 262 308 324C311 346 318 362 328 376C300 366 282 340 278 302C274 262 282 210 276 166Z"/>
+    </g>
+
+    <!-- hair strands and shine -->
+    <g fill="none" stroke="#56404c" stroke-width="2.5" stroke-linecap="round">
+      <path d="M112 196C110 246 106 292 96 340"/>
+      <path d="M288 196C290 246 294 292 304 340"/>
+      <path d="M80 236C82 286 80 330 72 360"/>
+      <path d="M320 236C318 286 320 330 328 360"/>
+    </g>
+    <g fill="none" stroke="#9a7486" stroke-width="5" stroke-linecap="round" opacity="0.7">
+      <path d="M134 96C141 85 150 78 160 73"/>
+      <path d="M168 69L173 67"/>
+    </g>
+
+    <!-- DNA hair clip on the right of the crown, following the curve of the head -->
+    <g transform="translate(258 84) rotate(30) scale(1.3)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M-36 0Q-27 -18 -18 0Q-9 18 0 0Q9 -18 18 0Q27 18 36 0" stroke="#382730" stroke-width="8.5"/>
+      <path d="M-36 0Q-27 18 -18 0Q-9 -18 0 0Q9 18 18 0Q27 -18 36 0" stroke="#382730" stroke-width="8.5"/>
+      <path d="M-27 -7.5V7.5M-9 -7.5V7.5M9 -7.5V7.5M27 -7.5V7.5" stroke="#fde4f0" stroke-width="3"/>
+      <path d="M-36 0Q-27 -18 -18 0Q-9 18 0 0Q9 -18 18 0Q27 18 36 0" stroke="#f19ac2" stroke-width="4.5"/>
+      <path d="M-36 0Q-27 18 -18 0Q-9 -18 0 0Q9 18 18 0Q27 -18 36 0" stroke="#b9a3f0" stroke-width="4.5"/>
+      <circle cx="-41" cy="0" r="5" fill="#f19ac2" stroke="#382730" stroke-width="3"/>
+      <circle cx="41" cy="0" r="5" fill="#b9a3f0" stroke="#382730" stroke-width="3"/>
+    </g>
+    <path d="M310 50c.8 4.6 3 6.8 7.6 7.6-4.6.8-6.8 3-7.6 7.6-.8-4.6-3-6.8-7.6-7.6 4.6-.8 6.8-3 7.6-7.6Z" fill="#fff" opacity="0.9"/>
+
+    <!-- eyebrows -->
+    <g fill="none" stroke="#2a1d25" stroke-width="4.5" stroke-linecap="round">
+      <path d="M136 151C147 144 162 144 172 149"/>
+      <path d="M228 149C238 144 253 144 264 151"/>
+    </g>
+
+    <!-- big chibi eyes -->
+    <ellipse cx="156" cy="197" rx="16.5" ry="21" fill="url(#iris)"/>
+    <ellipse cx="244" cy="197" rx="16.5" ry="21" fill="url(#iris)"/>
+    <circle cx="149" cy="188" r="6.5" fill="#fff"/>
+    <circle cx="237" cy="188" r="6.5" fill="#fff"/>
+    <circle cx="163" cy="207" r="2.8" fill="#fff"/>
+    <circle cx="251" cy="207" r="2.8" fill="#fff"/>
+    <g fill="none" stroke="#2a1d25" stroke-width="4.5" stroke-linecap="round">
+      <path d="M136 183C144 171 168 170 177 182"/>
+      <path d="M223 182C232 170 256 171 264 183"/>
+    </g>
+
+    <!-- rectangular glasses -->
+    <g fill="#ffffff" fill-opacity="0.16" stroke="#382730" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="120" y="166" width="72" height="56" rx="13"/>
+      <rect x="208" y="166" width="72" height="56" rx="13"/>
+      <path fill="none" d="M192 186C197 180 203 180 208 186"/>
+      <path fill="none" d="M120 182L104 177M280 182L296 177"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.85">
+      <path d="M178 172L186 180"/>
+      <path d="M266 172L274 180"/>
+    </g>
+
+    <!-- blush, nose, smile -->
+    <ellipse cx="134" cy="238" rx="17" ry="8.5" fill="#f39bbd" opacity="0.5"/>
+    <ellipse cx="266" cy="238" rx="17" ry="8.5" fill="#f39bbd" opacity="0.5"/>
+    <path d="M197 231Q200 234 203 231" fill="none" stroke="#d6957f" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M185 249Q200 263 215 249" fill="none" stroke="#8a3d5c" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- necklace -->
+    <path d="M180 314Q200 334 220 314" fill="none" stroke="#c9a24d" stroke-width="2"/>
+    <circle cx="200" cy="328" r="3.2" fill="#c9a24d"/>
+
+    <!-- laptop held in front, with a code sticker and a heart -->
+    <g stroke="#382730" stroke-width="4" stroke-linejoin="round">
+      <rect x="132" y="352" width="136" height="90" rx="10" fill="url(#lid)"/>
+      <ellipse cx="146" cy="354" rx="12" ry="10" fill="#fde4d8"/>
+      <ellipse cx="254" cy="354" rx="12" ry="10" fill="#fde4d8"/>
+    </g>
+    <text x="200" y="406" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="22" font-weight="700" fill="#7a3f62">&lt;/&gt;</text>
+    <path d="M236 420c-4-6-14-2-10 5l10 9 10-9c4-7-6-11-10-5Z" fill="#c77fac"/>
+  </g>
+
+
+  <!-- sparkles -->
+  <path d="M46 86c1.6 9 6 13.4 15 15-9 1.6-13.4 6-15 15-1.6-9-6-13.4-15-15 9-1.6 13.4-6 15-15Z" fill="#de9bc0"/>
+  <path d="M410 222c1 6 4 9 10 10-6 1-9 4-10 10-1-6-4-9-10-10 6-1 9-4 10-10Z" fill="#c77fac"/>
+  <path d="M54 240c.8 4.6 3 6.8 7.6 7.6-4.6.8-6.8 3-7.6 7.6-.8-4.6-3-6.8-7.6-7.6 4.6-.8 6.8-3 7.6-7.6Z" fill="#8f6bb3"/>
+</svg>

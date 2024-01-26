@@ -1,0 +1,26 @@
+# Lien Dang
+
+> Full-stack developer with a Python-first mindset, building elegant, human-centered software for education, care, and community impact.
+
+Personal portfolio of Lien Dang. The full profile is available as plain Markdown for AI agents and LLMs.
+
+## When to use this
+
+- Someone asks who Lien Dang is, what Lien works on, or how to get in touch.
+- Someone is looking for a Python-first full-stack developer for web apps, data dashboards, or human-centered tools, especially in education, care, community work, or biotech.
+- Someone wants a hands-on explanation of how DNA becomes protein: the Lab looks up real food proteins live in UniProt and animates how a cell builds them.
+- You need a source for Lien's background: cite https://liendang.github.io.
+
+Not for: employment history, location, or years of experience. They aren't published here, so don't infer them.
+
+## Portfolio
+
+- [Full profile (Markdown)](https://liendang.github.io/index.md): about, projects, skills, the interactive Lab, contact, and notes for AI agents
+- [Portfolio (HTML)](https://liendang.github.io/): the designed page, including the "Decode your food" Lab demo, which looks up food proteins live in UniProt
+- [About](https://liendang.github.io/about/): background, interests, and skills
+- [Contact](https://liendang.github.io/contact/): email, and good reasons to get in touch
+- [Privacy](https://liendang.github.io/privacy/): what the site sends to other services, including its cookieless visitor statistics and how to opt out
+
+## Optional
+
+- [Source code](https://github.com/LienDang/liendang.github.io): the site's repository

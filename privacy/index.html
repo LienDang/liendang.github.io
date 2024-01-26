@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy | Lien Dang</title>
+    <meta name="description" content="What Lien Dang's portfolio sends to other services, including cookieless visitor statistics, and how to opt out." />
+    <link rel="canonical" href="https://liendang.github.io/privacy/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://liendang.github.io/privacy/" />
+    <meta property="og:title" content="Privacy | Lien Dang" />
+    <meta property="og:description" content="What Lien Dang's portfolio sends to other services, including cookieless visitor statistics, and how to opt out." />
+    <meta property="og:image" content="https://liendang.github.io/assets/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="alternate" type="text/markdown" href="https://liendang.github.io/index.md" title="Markdown version for AI agents" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/analytics.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="/">Lien Dang</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="/about/">About</a>
+          <a href="/#projects">Projects</a>
+          <a href="/#lab">Lab</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section page">
+      <article class="container page-card">
+        <p class="eyebrow">Privacy</p>
+        <h1>Privacy notice</h1>
+        <p class="page-meta">Last updated 4 November 2026</p>
+        <p>
+          This is Lien Dang's personal portfolio. It has no accounts, sign-ups or ads, and it sets no cookies. This page
+          explains what leaves your browser when you visit, including the visitor statistics that show me how the site is
+          used, and how to opt out of them.
+        </p>
+
+        <h2 id="statistics">Visitor statistics</h2>
+        <p data-stats-off>Visitor statistics aren't active in this browser right now, so nothing is sent to Umami.</p>
+        <p>
+          The site uses Umami Cloud, a privacy-focused analytics service, to count visits and see how the portfolio and
+          its Lab are used, so I can improve them. Umami doesn't set cookies or store anything in your browser, and it says
+          it doesn't track visitors across other websites. I use the results only as statistics about this site: I don't
+          try to identify individual visitors, and nothing is used for advertising.
+        </p>
+        <p>Umami records:</p>
+        <ul>
+          <li>
+            <strong>Each page you open:</strong> its address (keeping any <code>utm_</code> campaign tags but no other
+            query parameters), its title, and the site you came from, without the query part of that site's address.
+          </li>
+          <li>
+            <strong>Your browser and device:</strong> browser, operating system, device type, screen size and language,
+            and an approximate location (country, region and city) that Umami works out from your IP address.
+          </li>
+          <li>
+            <strong>How the page performs:</strong> how fast it loads and responds, and any script errors, with web
+            addresses shortened and anything that looks like an email address or password removed.
+          </li>
+          <li>
+            <strong>What you do on the page:</strong> which sections you reach and how far down you scroll; how long the
+            page is on screen (after 30 seconds, 1, 3 and 10 minutes); which links you click, including the email link,
+            recorded without the query part of their address (and, for UniProt, without the protein's ID); that you copied some text, and from which section, but
+            never what you copied; printing; and opening the Python example.
+          </li>
+          <li>
+            <strong>What you do in the Lab:</strong> looking up a food (whether you tapped or typed it, and whether
+            proteins were found; a typed food is counted once you stop typing), picking a protein (its public UniProt ID,
+            but only for a food the Lab already knows), pressing Translate, mutating a DNA base and
+            what kind of mutation it was, shuffling codons, undoing mutations, and clicking the codon wheel or the amino
+            acid classes. A lookup names the food only if it's one the Lab already knows, like milk or rice. Anything else
+            you type is recorded as "other", so your own words are never sent to Umami.
+          </li>
+        </ul>
+        <p>
+          Umami tells repeat visits apart without cookies, using details your browser sends with each request. It says it
+          doesn't store visitor IP addresses in the analytics records, though it and its infrastructure providers may keep
+          them in operational and security logs. Umami processes the statistics on my behalf under its
+          <a href="https://umami.is/dpa">data processing agreement</a>, keeps them for 6 months on the plan this site uses,
+          and may process them outside your country, including in the United States. See
+          <a href="https://umami.is/privacy">Umami's privacy policy</a> and
+          <a href="https://umami.is/security">security page</a>.
+        </p>
+        <p>
+          Because the statistics are limited to measuring and improving this site, they're collected without asking
+          first, based on my legitimate interest in understanding how the portfolio is used. You can object at any time
+          by opting out below.
+        </p>
+
+        <h2 id="choice">Opting out</h2>
+        <div class="stats-choice" data-stats-choice hidden></div>
+        <p>
+          Opting out stops this browser's visits being counted, straight away and in every open tab. The choice is saved
+          in this browser's local storage as <code>umami.disabled</code>, the opt-out flag Umami itself checks. That's the
+          only thing the site stores in your browser, and only if you opt out. Clearing this site's data in your browser
+          undoes it.
+        </p>
+        <p>
+          If your browser sends a Global Privacy Control or Do Not Track signal, the site treats it as opting out and
+          counts nothing. Content blockers that block Umami have the same effect.
+        </p>
+        <p>
+          Opting out can't remove statistics already collected. If you'd like those removed, email me and I'll do what
+          Umami's tools allow.
+        </p>
+
+        <h2>Services the site always uses</h2>
+        <p>These apply whether or not your visits are counted.</p>
+        <ul>
+          <li>
+            <strong>Hosting.</strong> GitHub Pages serves the site, so GitHub receives the usual request details, such
+            as your IP address, whenever your browser loads a page. See
+            <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.
+          </li>
+          <li>
+            <strong>Fonts.</strong> Each page loads the Inter typeface from Google Fonts, so your browser also contacts
+            Google's servers, which receive your IP address and browser details. See the
+            <a href="https://developers.google.com/fonts/faq/privacy">Google Fonts privacy FAQ</a>.
+          </li>
+          <li>
+            <strong>Lab lookups.</strong> The Lab searches UniProt, the public protein database, straight from your
+            browser: once for milk when the homepage opens, then whenever you pick a food or pause while typing one.
+            UniProt receives each search, which can include what you typed, and your IP address. See
+            <a href="https://www.uniprot.org/help/privacy">UniProt's privacy notice</a>.
+          </li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about this notice or your data:
+          <a href="mailto:lien.dang@eastagile.com">lien.dang@eastagile.com</a>.
+        </p>
+        <p><a href="/#lab">Back to the Lab</a> · <a href="/">Back to the portfolio</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <nav class="container footer-links" aria-label="Site">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+        <div class="underground">
+          <svg class="ground-line" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 13C110 6 210 17 330 12S560 5 690 11 930 19 1050 11 1160 7 1200 10V24H0Z" />
+          </svg>
+          <nav class="container buried" aria-label="For AI agents and LLMs">
+            <svg class="buried-seed" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2.5c.6 4.6 2.9 6.9 7.5 7.5-4.6.6-6.9 2.9-7.5 7.5-.6-4.6-2.9-6.9-7.5-7.5 4.6-.6 6.9-2.9 7.5-7.5z" />
+            </svg>
+            <span>for AI agents &amp; LLMs</span>
+            <a href="/index.md">
+              <svg viewBox="0 0 208 128" aria-hidden="true">
+                <rect x="5" y="5" width="198" height="118" rx="15" fill="none" stroke="currentColor" stroke-width="14" />
+                <path d="M30 98V30h20l20 25 20-25h20v68H90V59L70 84 50 59v39zm125 0l-30-33h20V30h20v35h20z" fill="currentColor" />
+              </svg>
+              index.md
+            </a>
+            <a href="/llms.txt">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                <path d="M14 3v5h5M9 13h6M9 17h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              llms.txt
+            </a>
+          </nav>
+        </div>
+    </footer>
+  </body>
+</html>
